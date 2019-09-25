@@ -1,0 +1,53 @@
+/* bleu ENS : rgb(50, 76, 152)
+ */
+
+body,html {
+    margin:0;
+    font-family:sansregular, "Helvetica Neue", Helvetica, Arial, "Bitstream Vera Sans", sans-serif, narrowbold, "Helvetica Neue", Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
+}
+
+#bandeau {
+    background-color:#eeeeee;
+    padding:5px;
+    text-align:right;
+}
+
+#barre_nav {
+    color:white;
+    background-color:#574c52;
+    height:73px;
+}
+
+#header {
+    background-image:url(devanture_ens.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#f0f0f0;
+    height:389px;
+    margin:auto;
+}
+
+#logo_ens {
+    padding:15px;
+    width:78px;
+    background-color:rgb(50, 76, 152);
+    float:left;
+    margin-left:30px;
+    margin-top:-15px;
+}
+#onglets {
+    padding:28px;
+    text-align:left;
+    text-transform: uppercase;
+}
+#onglets a {
+    color:white;
+    text-decoration:none;
+    margin-left:30px;
+}
+#onglets a:hover {
+    
+}
+.contenu {
+    padding:20px;
+}
