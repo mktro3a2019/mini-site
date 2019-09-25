@@ -36,17 +36,17 @@ body,html {
     margin-top:-15px;
 }
 #onglets {
-    padding:28px;
     text-align:left;
     text-transform: uppercase;
 }
 #onglets a {
+    padding:27.5px;
+    display:inline-block;
     color:white;
     text-decoration:none;
-    margin-left:30px;
 }
 #onglets a:hover {
-    
+    background-color:#463d42;
 }
 .contenu {
     padding:20px;
