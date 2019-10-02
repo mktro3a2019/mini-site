@@ -39,10 +39,12 @@ function get_users() {
     return $ret_a;
 }
 
-/*function get_users_from_year($year) {
+function get_users_from_year($year) {
     global $users_db, $db_tables;
-    $stmt = $users_db->prepare("SELECT id,user,year,name FROM ".$db_tables["cursus"]." WHERE user=? ORDER BY year");
-    $stmt->bind_param("i",$user);
+    $users=$db_tables["users"];
+    $cursus=$db_tables["cursus"];
+    $stmt = $users_db->prepare("SELECT DISTINCT $users.id,$users.first_name,$users.last_name FROM $users INNER JOIN $cursus ON $users.id=$cursus.user WHERE $cursus.year=?");
+    $stmt->bind_param("i",$year);
     $stmt->execute();
     $result = $stmt->get_result();
     $ret_a = [];
@@ -51,7 +53,7 @@ function get_users() {
     }
     $stmt->close();
     return $ret_a;
-}*/
+}
 
 function get_user($email,$password) {
     global $users_db, $db_tables;
