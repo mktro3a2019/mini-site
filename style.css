@@ -32,6 +32,7 @@ body,html {
     padding:30px;
     max-width:1200px;
     margin:auto;
+	clear: both;
 }
 
 #logo_ens {
@@ -79,4 +80,12 @@ th {
 td,th {
     border:1px solid black;
     padding:5px;
+}
+
+#listeannee {
+	margin-top : -40px;
+	float:left;
+	padding:5px;
+	/*border: 2px solid #aaaaff;*/
+	 font-size: 150%
 }

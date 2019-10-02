@@ -1,3 +1,3 @@
 <div id="footer">
-    Site réalisé par Machin et Bidule en 2019 dans le cadre de la 3a mktro.
+    Site à la grandeur de l'ENS, la seule et unique vrai ENS, pour les dominer tous et dans les ténèbres les lier.
 </div>

@@ -46,27 +46,44 @@
                     </form>
                 </table>
                 <?php } ?>
-            <h1>Liste des inscrits</h1>
-            <table>
-                <tr>
-                    <th>Prénom</th>
-                    <th>Nom</th>
-                    <th>Cursus</th>
-                    <th>Année</th>
-                </tr>
-                <?php
-                    foreach($utilisateurs as $u) {
-                        $cursus = get_user_cursus($u["id"]);
-                        ?>
-                        <tr>
-                            <td><?php echo htmlentities($u["first_name"]); ?></td>
-                            <td><?php echo htmlentities($u["last_name"]); ?></td>
-                            <td><?php foreach($cursus as $c) {echo htmlentities($c["name"])."<br/>";} ?>
-                            <td><?php foreach($cursus as $c) {echo $c["year"]."<br/>";} ?>
-                        </tr>
-                    <?php }
-                ?>
-            </table>
+				<div>
+				
+					<div id="listeannee">
+					<p style="font-size: 120%;">Année</p>
+					<ul>
+					<?php
+						$annee=get_years();
+						foreach($annee as $a){?>
+						
+						<li> <a href="liste_inscrit.php?annee=<?php echo $a; ?>" ><?php echo $a; ?></a> </li>
+						<?php 
+					}?>
+					</ul>
+					</div>
+					<div style="margin-left:150px;">
+						<h1>Liste des inscrits</h1>
+						<table>
+							<tr>
+								<th>Prénom</th>
+								<th>Nom</th>
+								<th>Cursus</th>
+								<th>Année</th>
+							</tr>
+							<?php
+								foreach($utilisateurs as $u) {
+									$cursus = get_user_cursus($u["id"]);
+									?>
+									<tr>
+										<td><?php echo htmlentities($u["first_name"]); ?></td>
+										<td><?php echo htmlentities($u["last_name"]); ?></td>
+										<td><?php foreach($cursus as $c) {echo htmlentities($c["name"])."<br/>";} ?>
+										<td><?php foreach($cursus as $c) {echo $c["year"]."<br/>";} ?>
+									</tr>
+								<?php }
+							?>
+						</table>
+					</div>
+				</div>
         </div>
         <?php include "template/footer.php"; ?>
     </body>
