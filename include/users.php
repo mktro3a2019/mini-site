@@ -39,6 +39,20 @@ function get_users() {
     return $ret_a;
 }
 
+/*function get_users_from_year($year) {
+    global $users_db, $db_tables;
+    $stmt = $users_db->prepare("SELECT id,user,year,name FROM ".$db_tables["cursus"]." WHERE user=? ORDER BY year");
+    $stmt->bind_param("i",$user);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $ret_a = [];
+    while($ret=$result->fetch_array(MYSQLI_ASSOC)) {
+        $ret_a[] = $ret; // équivalent à un push
+    }
+    $stmt->close();
+    return $ret_a;
+}*/
+
 function get_user($email,$password) {
     global $users_db, $db_tables;
     $stmt = $users_db->prepare("SELECT id,email,first_name,last_name FROM ".$db_tables["users"]." WHERE email=? AND password=?");
@@ -91,4 +105,15 @@ function del_cursus($id) {
     $ret = $stmt->execute();
     $stmt->close();
     return $ret;
+}
+
+function get_years() {
+    global $users_db, $db_tables;
+    $result = $users_db->query("SELECT DISTINCT year FROM ".$db_tables["cursus"]);
+    $ret_a = [];
+    while($ret=$result->fetch_array(MYSQLI_ASSOC)) {
+        $ret_a[] = $ret["year"]; // équivalent à un push
+    }
+    $result->close();
+    return $ret_a;
 }
