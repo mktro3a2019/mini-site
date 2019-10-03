@@ -21,6 +21,7 @@
         <a href="liste_inscrits.php">Liste des inscrits</a>
 		<a href="vie_asso.php">Vie associative</a>
 		<a href="jeux.php">Jeux</a>
+		<a href="http://www.ens-rennes.fr" target="_blank">Faux site ENS</a>
     </div>
 </div>
 <div id="header"></div>
