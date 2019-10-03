@@ -20,6 +20,7 @@
         <a href="./">Accueil</a>
         <a href="liste_inscrits.php">Liste des inscrits</a>
 		<a href="vie_asso.php">Vie associative</a>
+		<a href="jeux.php">Jeux</a>
     </div>
 </div>
 <div id="header"></div>

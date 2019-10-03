@@ -17,7 +17,7 @@
 				ou le voyage au ski d'une semaine en février (askip ça va être tout pourri cette année). Pour voir leur page Facebook, cliquez 
 				<a href="https://www.facebook.com/groups/558763927531328/" target="_blank">ici</a>.</li>
 				<li>Le BDA qui s'occupe de gérer les clubs "artistiques" (comme le babyfoot) et s'occupe des inter'Q (un évènements culturelle entre les ENS), 
-				des évènements liées à l'art sont aussi organiser au cours de l'année. pPour voir leur page Facebook cliquez
+				des évènements liées à l'art sont aussi organiser au cours de l'année. Pour voir leur page Facebook cliquez
 				<a href="https://www.facebook.com/groups/123337141169867/" target="_blank">ici</a>.</li>
 				<li>Le BDS qui s'occupe de gérer les clubs sportifs (comme le babyfoot, oui il est partout) et s'occupe aussi des inter'ENS (compétition sportives entre les
 				ENS), des évènements sportifs sont aussi organisées au cours de l'année (qui se passeront cette année à Vichy... si elle se passe!). Pour voir leur page Facebook, 
