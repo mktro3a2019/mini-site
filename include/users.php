@@ -111,7 +111,7 @@ function del_cursus($id) {
 
 function get_years() {
     global $users_db, $db_tables;
-    $result = $users_db->query("SELECT DISTINCT year FROM ".$db_tables["cursus"]);
+    $result = $users_db->query("SELECT DISTINCT year FROM ".$db_tables["cursus"]." ORDER BY year");
     $ret_a = [];
     while($ret=$result->fetch_array(MYSQLI_ASSOC)) {
         $ret_a[] = $ret["year"]; // équivalent à un push
