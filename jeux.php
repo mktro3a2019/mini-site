@@ -12,7 +12,7 @@
         <?php include "template/header.php"; ?>
 		
 		<div class="contenu">
-		<h1> Cliquer sur Charlie </h1>		</div>
+		<h1> Cliquer sur la tête de Charlie </h1>		</div>
 		<img src="images/charlie.jpg" alt="charlie" usemap="#charlie" style="width: 1000px; margin-left: auto; margin-right: auto; display: block;">
 		<map name="charlie">
 			<area shape="circle" coords="838.5px,148px,5px" alt="charlie" href="javascript:Message()" href="https://www.google.com">
