@@ -39,6 +39,25 @@
 			</div>
 			<div style="margin-left:80px;"><p style="margin-left:100px;" >Clara Amsallem la présidente du BDE de l'ENS, le BDE est passé cette année car plein de gens ont trollé lors des votes faisant passé 
 			la liste la moins favorite à la présidence du BDE. </p>
+			</div>
+		</div>
+		<hr>
+		<div class="contenu">
+			<div id="personaliter">
+				<a href="https://www.facebook.com/remi.jardot.9" target="_blank"> <img src="images/rémi_jardot.jpg" style="width:100px"></a>
+			</div>
+			<div style="margin-left:80px;"><p style="margin-left:100px;" >Rémi Jardot le président du BDA de l'ENS, marchand de tapis, chercheur d'argent (#sponso), mktro d'esprit,
+			buveaur de ricard </p>
+			</div>
+		</div>
+		<hr>
+		<div class="contenu">
+			<div id="personaliter">
+				<a href="https://www.facebook.com/alexis.dasilva.79" target="_blank"> <img src="images/alexis_dasilva.jpg" style="width:100px"></a>
+			</div>
+			<div style="margin-left:80px;"><p style="margin-left:100px;" >Alexis Da Silva le président du BDS de l'ENS, filleul de son secrétaire (qui est d'ailleurs une 
+			personne extraordinaire), souleveur de poid à la salle, barbu de renom.</p>
+			</div>
 		</div>
         <?php include "template/footer.php"; ?>
     </body>
