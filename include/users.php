@@ -7,7 +7,7 @@ $pepper = "du poivre";
 
 function cypher_password($password) {
     global $pepper;
-    return sha1($password.$pepper);
+    return sha1($password.$pepper); // congrue password_hash
 }
 
 function add_user($email,$password,$first_name,$last_name) {

@@ -59,7 +59,7 @@
 				<div>
 				
 					<div id="listeannee">
-					<p style="font-size: 120%;">Année</p>
+					<h1 style=" margin-top:0px;"><b>Année</b></h1>
 					<ul>
                         <li><a href="liste_inscrits.php">Toutes</a></li>
 					<?php
@@ -70,7 +70,7 @@
 					}?>
 					</ul>
 					</div>
-					<div style="margin-left:150px;">
+					<div style="margin-left:150px; ">
 						<h1>Liste des inscrits
                             <?php
                                 if(isset($_GET["annee"]) and !empty($_GET["annee"])) {

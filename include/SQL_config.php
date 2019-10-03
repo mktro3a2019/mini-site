@@ -1,8 +1,8 @@
 <?php
 $db_host="localhost";
-$db_user="site_ens";
-$db_pass="mdp_bdd";
-$db_name="site_ens";
+$db_user="plop";
+$db_pass="plop";
+$db_name="plop";
 $db_tables = [
     "users" => "users",
     "cursus" => "cursus",

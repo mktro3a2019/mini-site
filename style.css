@@ -83,9 +83,20 @@ td,th {
 }
 
 #listeannee {
-	margin-top : -40px;
-	float:left;
+	margin-top : -5px;
+	padding-top: -20px;
+	float: left;
 	padding:5px;
-	/*border: 2px solid #aaaaff;*/
-	 font-size: 150%
+	border: 1px solid #000000;
+	background-color:#eeeeee;
+	/*font-size: 150%;*/
+	clear: both;
+}
+
+#personaliter {
+    padding:15px;
+    width:78px;
+    float:left;
+    margin-left:30px;
+    margin-top:-15px;
 }
