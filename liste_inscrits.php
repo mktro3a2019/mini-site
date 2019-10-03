@@ -16,7 +16,17 @@
                 
                 print_error();
                 
-                $utilisateurs = get_users();
+                
+                if(isset($_GET["annee"]) and !empty($_GET["annee"])) {
+                    if(!($utilisateurs = get_users_from_year($_GET["annee"]))) {
+                        $utilisateurs = get_users();
+                        unset($_GET["annee"]);
+                    }
+                } else {
+                    $utilisateurs = get_users();
+                }
+                
+                
                 
                 if(user_connected()) { ?>
                 <h2>Bienvenue, <?php echo htmlentities(user_name()); ?> !</h2>
@@ -51,17 +61,23 @@
 					<div id="listeannee">
 					<p style="font-size: 120%;">Année</p>
 					<ul>
+                        <li><a href="liste_inscrits.php">Toutes</a></li>
 					<?php
 						$annee=get_years();
 						foreach($annee as $a){?>
-						
-						<li> <a href="liste_inscrit.php?annee=<?php echo $a; ?>" ><?php echo $a; ?></a> </li>
+                            <li> <a href="liste_inscrits.php?annee=<?php echo $a; ?>" ><?php echo $a; ?></a> </li>
 						<?php 
 					}?>
 					</ul>
 					</div>
 					<div style="margin-left:150px;">
-						<h1>Liste des inscrits</h1>
+						<h1>Liste des inscrits
+                            <?php
+                                if(isset($_GET["annee"]) and !empty($_GET["annee"])) {
+                                    echo "(".$_GET["annee"].")";
+                                }
+                            ?>
+                        </h1>
 						<table>
 							<tr>
 								<th>Prénom</th>
