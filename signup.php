@@ -16,10 +16,10 @@
                 print_error();
             ?>
             <form method="post" action="register.php">
-                <label for="first_name">Prénom</label> <input type="text" name="first_name" id="first_name"/><br/>
-                <label for="last_name">Nom</label> <input type="text" name="last_name" id="last_name"/><br/>
-                <label for="promo">Promo</label> <input type="text" name="promo" id="promo"/><br/>
-                <label for="email">Adresse e-mail :</label> <input type="text" name="email" id="email"/><br/>
+                <label for="first_name">Prénom :</label> <input type="text" name="first_name" id="first_name"/><br/>
+                <label for="last_name">Nom :</label> <input type="text" name="last_name" id="last_name"/><br/>
+                <label for="promo">Promo :</label> <input type="number" value="2017" name="promo" id="promo"/><br/>
+                <label for="email">Adresse e-mail :</label> <input type="email" name="email" id="email"/><br/>
                 <label for="password">Mot de passe :</label> <input type="password" name="password" id="password"/><br/>
                 <input type="submit" value="S'inscrire"/>
             </form>

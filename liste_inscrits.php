@@ -49,8 +49,8 @@
                     ?>
                     <form method="post" action="add_cursus.php">
                         <tr>
-                            <td><input type="text" name="year"/></td>
-                            <td><input type="text" name="name"/></td>
+                            <td><input type="number" name="year" value="2017"/></td>
+                            <td><input type="text" name="name" placeholder="Intitulé"/></td>
                             <td><input type="submit" value="Ajouter"/></td>
                         </tr>
                     </form>
