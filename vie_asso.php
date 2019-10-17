@@ -6,6 +6,12 @@
     <head>
         <?php include "template/head.php"; ?>
         <title>Alumni ou pas</title>
+        <style type="text/css">
+            #header {
+                background-image:url(images/rubrique-asso.jpg);
+                height:232px;
+            }
+        </style>
     </head>
     <body>
         <?php include "template/header.php"; ?>
