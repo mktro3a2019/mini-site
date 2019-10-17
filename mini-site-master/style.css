@@ -1,0 +1,103 @@
+/* bleu ENS : rgb(50, 76, 152)
+ */
+
+body,html {
+    margin:0;
+    font-family:sansregular, "Helvetica Neue", Helvetica, Arial, "Bitstream Vera Sans", sans-serif, narrowbold, "Helvetica Neue", Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
+}
+
+#bandeau {
+    background-color:#eeeeee;
+    padding:5px;
+    text-align:right;
+}
+
+#barre_nav {
+    color:white;
+    background-color:#574c52;
+    height:73px;
+}
+
+#header {
+    background-image:url(images/devanture_ens.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:#f0f0f0;
+    height:389px;
+    margin:auto;
+}
+#footer {
+    color:white;
+    background-color:#574c52;
+    padding:30px;
+    max-width:1200px;
+    margin:auto;
+	clear: both;
+}
+
+#logo_ens {
+    padding:15px;
+    width:78px;
+    background-color:rgb(50, 76, 152);
+    float:left;
+    margin-left:30px;
+    margin-top:-15px;
+}
+#onglets {
+    text-align:left;
+    text-transform: uppercase;
+}
+#onglets a {
+    padding:27.5px;
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+}
+#onglets a:hover {
+    background-color:#463d42;
+}
+.contenu {
+    padding:30px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.error {
+    color:red;
+    padding:10px;
+}
+
+table {
+    border-collapse:collapse;
+    background-color:#eeeeee;
+}
+tr:nth-child(odd) {
+    background-color:#dddddd;
+}
+th {
+    background-color:#aaaaff;
+}
+td,th {
+    border:1px solid black;
+    padding:5px;
+}
+
+#listeannee {
+	margin-top : -5px;
+	padding-top: -20px;
+	float: left;
+	padding:5px;
+	border: 1px solid #000000;
+	background-color:#eeeeee;
+	/*font-size: 150%;*/
+	clear: both;
+}
+
+#personaliter {
+    padding:15px;
+    width:78px;
+    float:left;
+    margin-left:30px;
+    margin-top:-15px;
+}
+
