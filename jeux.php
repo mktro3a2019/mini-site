@@ -196,10 +196,10 @@
 		function check_answer(form){
 			if(form.rep.value==quizz_tab[num][2] || num==6-1){
 				if (num==Qmax-1) {
-					var msg="Bien joué champion! Tu es le meilleur! A voir combien de fois gtu as recommencé maintenant... :)";
+					var msg="Bien joué champion! Tu es le meilleur! A voir combien de fois tu as recommencé maintenant... :)";
 					console.log(msg)
 					alert(msg);
-					document.getElementById("Score").value=num;
+					document.getElementById("Score").value=num+1;
 					toggle("the_quizz");
 					toggle("give_pseudo");
 				}
