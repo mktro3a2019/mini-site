@@ -187,7 +187,7 @@
 		alert(msg);} 
 		
 		function MauvaiseReponse() {
-			var msg="T'es qu'une merde";
+			var msg="Perdu! T'es tout claqué!";
 			console.log(msg)
 		alert(msg);} 
 		
