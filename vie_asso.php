@@ -6,12 +6,6 @@
     <head>
         <?php include "template/head.php"; ?>
         <title>Alumni ou pas</title>
-        <style type="text/css">
-            #header {
-                background-image:url(images/rubrique-asso.jpg);
-                height:232px;
-            }
-        </style>
     </head>
     <body>
         <?php include "template/header.php"; ?>
@@ -22,7 +16,7 @@
 				<li>Le BDE qui s'occupe des soirées de l'ENS, des afterworks dans les bars de Rennes ainsi que des évènements comme le WEI (week end d'intégration)
 				ou le voyage au ski d'une semaine en février (askip ça va être tout pourri cette année). Pour voir leur page Facebook, cliquez 
 				<a href="https://www.facebook.com/groups/558763927531328/" target="_blank">ici</a>.</li>
-				<li>Le BDA qui s'occupe de gérer les clubs "artistiques" (comme le babyfoot) et s'occupe des inter'Q (un évènements culturelle entre les ENS), 
+				<li>Le BDA qui s'occupe de gérer les clubs "artistiques" (comme le babyfoot) et s'occupe des inter'Q (un évènement culturel entre les ENS), 
 				des évènements liées à l'art sont aussi organiser au cours de l'année. Pour voir leur page Facebook cliquez
 				<a href="https://www.facebook.com/groups/123337141169867/" target="_blank">ici</a>.</li>
 				<li>Le BDS qui s'occupe de gérer les clubs sportifs (comme le babyfoot, oui il est partout) et s'occupe aussi des inter'ENS (compétition sportives entre les
