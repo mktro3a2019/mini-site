@@ -236,7 +236,7 @@
 	</div>
 	
 	<div class="contenu" id="give_pseudo">
-		<h3 style="color: blue;"><i>Rentrez votre pseudo</i></h3>
+		<h3 style="color: blue;"><i>Rentre ton pseudo puis va voir ton classement en bas de la page!</i></h3>
 		<form method="post" action="Log_score.php">
 			<label for="Pseudo">Pseudo :</label> <input type="text" name="Pseudo" id="Pseudo"/><br/>
 			<input type="hidden" name="Score" id="Score"/>
@@ -245,6 +245,17 @@
     </div>
 	<script>toggle("give_pseudo");</script>
 		
+
+	
+		<div class="contenu">
+		<h1> Cliquer sur la tête de Charlie </h1>		
+		<img src="images/charlie.jpg" alt="charlie" usemap="#charlie" style="width: 1000px; margin-left: auto; margin-right: auto; display: block;">
+		<map name="charlie">
+			<area shape="circle" coords="838.5px,148px,5px" alt="charlie" href="javascript:Message()" href="https://www.google.com">
+		
+        </map>
+	</div>
+	
 	<div style="text-align:center; width:1px; margin: auto;"><h2 style="color:red;">Historique</h2>
 	<table>
 		<tr>
@@ -263,16 +274,6 @@
 		?>
 	</table>
 	</div>
-	
-		<div class="contenu">
-		<h1> Cliquer sur la tête de Charlie </h1>		
-		<img src="images/charlie.jpg" alt="charlie" usemap="#charlie" style="width: 1000px; margin-left: auto; margin-right: auto; display: block;">
-		<map name="charlie">
-			<area shape="circle" coords="838.5px,148px,5px" alt="charlie" href="javascript:Message()" href="https://www.google.com">
-		
-        </map>
-	</div>
-	
 	
 	</div>
 		<?php include "template/footer.php"; ?>
